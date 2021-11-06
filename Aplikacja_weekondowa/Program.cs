@@ -8,15 +8,13 @@ namespace Aplikacja_weekondowa
 {
     class Program
     {
-        static int add(int number1, int number2)
-        {
-            return number1 + number2;
-        }
+
 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
-            Console.WriteLine("World!");
+            Console.WriteLine(Funkcje.Matematyczne.add(2, 5));
+            Console.ReadKey();
         }
     }
 }
