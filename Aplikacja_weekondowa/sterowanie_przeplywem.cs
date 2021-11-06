@@ -24,7 +24,20 @@ namespace Aplikacja_weekondowa.Sterowanie
                 Console.WriteLine("Te wartości nie są równe");
             }
         }
-
+        public static void pokazSwitch(int liczba)
+        {
+            switch(liczba) {
+                case 1:
+                    Console.WriteLine("=1");
+                    break;
+                case 2:
+                    Console.WriteLine("=2");
+                    break;
+                default:
+                    Console.WriteLine("inne liczby");
+                    break;
+            }
+        }
     }
 
 }
