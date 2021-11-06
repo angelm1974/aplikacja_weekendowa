@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="konwersje.cs" />
     <Compile Include="moje_funkcje.cs" />
     <Compile Include="newfile.cs" />
     <Compile Include="Program.cs" />

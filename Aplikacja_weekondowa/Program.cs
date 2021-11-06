@@ -14,7 +14,11 @@ namespace Aplikacja_weekondowa
         {
             Console.WriteLine("Hello");
             Console.WriteLine(Funkcje.Matematyczne.add(2, 5));
+            Konwersje.Niejawne.numer(12);
+            Konwersje.Jawne.numer(1);
             Console.ReadKey();
         }
+
+
     }
 }
