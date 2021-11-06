@@ -46,6 +46,7 @@
     <Compile Include="konwersje.cs" />
     <Compile Include="moje_funkcje.cs" />
     <Compile Include="newfile.cs" />
+    <Compile Include="prezentacja_danych.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
