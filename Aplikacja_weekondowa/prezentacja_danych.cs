@@ -14,7 +14,7 @@ namespace Aplikacja_weekondowa.PrezentacjaDanych {
 
         public static void wyswietl2(string a, string b)
         {
-            Console.WriteLine($"Mój string 1 ma wartość={a}, a drugi wynosi {b}");
+            Console.WriteLine($"Mój string\t\t 1 ma wartość={a},\n a drugi wynosi {b}\a");
         }
         public static void sciecha()
         {
@@ -23,3 +23,18 @@ namespace Aplikacja_weekondowa.PrezentacjaDanych {
     }
 
 }
+
+///
+        //Sekwencja ucieczki	Znaczenie
+        //  \\	znak \
+        //  \'	znak '
+        //  \"	znak "
+        //  \?	znak ?
+        //  \a	z głośników usłyszmy pojedyczny brzęczyk (beep)
+        //  \b znak backspace (cofamy kursor o jedną pozycję)
+        //  \n nowa linia
+        //  \r	powrót kursora na początek obecnej linii
+        //  \t	znak tabulacji (odstęp)
+        //  \v pionowy znak tabulacji
+        //  \ooo	liczba ósemkowa o jednej lub większej liczbie cyfr
+        //  \xhh	liczba szestastkowa o jednej lub większej liczbie cyfr
