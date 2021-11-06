@@ -22,6 +22,8 @@ namespace Aplikacja_weekondowa
             //PrezentacjaDanych.PrezentacjaStringow.wyswietl2("zerową", "465 lub 456");
             Sterowanie.SterowaniePrzeplywem.wyswietl("Miło Cię widzieć", 2, 7);
             Sterowanie.SterowaniePrzeplywem.pokazSwitch(10);
+            Sterowanie.SterowaniePrzeplywem.petlaWhile(30);
+            Sterowanie.SterowaniePrzeplywem.petlaFor(20);
             Console.ReadKey();
         }
 

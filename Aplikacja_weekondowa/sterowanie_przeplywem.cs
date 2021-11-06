@@ -38,6 +38,30 @@ namespace Aplikacja_weekondowa.Sterowanie
                     break;
             }
         }
+        /// <summary>
+        /// Procedura pozwalająca na sprawdzenie jak działa pętla while
+        /// </summary>
+        /// <param name="wartosc"> waartość pobrana od użytkownika</param>
+         public static void petlaWhile(int wartosc)
+        {
+            while (wartosc>0)
+            {
+                Console.WriteLine($"moja wartość to:{wartosc}");
+                wartosc -= 1;
+            }
+            Console.WriteLine("Koniec pętli");
+        }
+
+
+        public static void petlaFor(int length)
+        {
+            int sumaI = 0;
+            for (int i = 0; i < length; i++)
+            {
+                Console.WriteLine($"aktualnie i wynosi={i}, suma i wynosi: {sumaI += i}");
+            }
+        }
+
     }
 
 }
