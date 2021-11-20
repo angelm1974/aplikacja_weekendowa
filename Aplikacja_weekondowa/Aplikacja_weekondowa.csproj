@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="funkcje.cs" />
     <Compile Include="konwersje.cs" />
     <Compile Include="moje_funkcje.cs" />
     <Compile Include="newfile.cs" />
@@ -50,6 +51,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sterowanie_przeplywem.cs" />
+    <Compile Include="struktury.cs" />
+    <Compile Include="tablice.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

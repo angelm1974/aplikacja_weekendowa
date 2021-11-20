@@ -13,17 +13,26 @@ namespace Aplikacja_weekondowa
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
-            Console.WriteLine(Funkcje.Matematyczne.add(2, 5));
-            Konwersje.Niejawne.numer(12);
-            Konwersje.Jawne.numer(1);
+            //Console.WriteLine(Funkcje.Matematyczne.add(2, 5));
+            //Konwersje.Niejawne.numer(12);
+            //Konwersje.Jawne.numer(1);
             //Console.WriteLine("Podaj liczbę: ");
             //Konwersje.Jawne.przez_metode(Console.ReadLine());
             //PrezentacjaDanych.PrezentacjaStringow.wyswietl("Mój string {0}, a drugi {1}","zerową", "465 lub 456");
             //PrezentacjaDanych.PrezentacjaStringow.wyswietl2("zerową", "465 lub 456");
-            Sterowanie.SterowaniePrzeplywem.wyswietl("Miło Cię widzieć", 2, 7);
-            Sterowanie.SterowaniePrzeplywem.pokazSwitch(10);
-            Sterowanie.SterowaniePrzeplywem.petlaWhile(30);
-            Sterowanie.SterowaniePrzeplywem.petlaFor(20);
+            //Sterowanie.SterowaniePrzeplywem.wyswietl("Miło Cię widzieć", 2, 7);
+            //Sterowanie.SterowaniePrzeplywem.pokazSwitch(10);
+            //Sterowanie.SterowaniePrzeplywem.petlaWhile(30);
+            //Sterowanie.SterowaniePrzeplywem.petlaFor(20);
+            //Sterowanie.SterowaniePrzeplywem.petlaZwarunkiem();
+            //int abc=funkcje.ileRazyLitery("Poszedł gość po wodę", 'o');
+            //int abc = funkcje.Silnia(5);
+            //funkcje.operator_porownania();
+           // tablice.mojaTablica();
+            //tablice.wielowymiarowa();
+            struktury.Samochody();
+
+            //Console.WriteLine(abc);
             Console.ReadKey();
         }
 

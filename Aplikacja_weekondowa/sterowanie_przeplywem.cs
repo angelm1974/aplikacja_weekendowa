@@ -61,7 +61,49 @@ namespace Aplikacja_weekondowa.Sterowanie
                 Console.WriteLine($"aktualnie i wynosi={i}, suma i wynosi: {sumaI += i}");
             }
         }
+        public static void zagniezdzaniePetliFor()
+        {
+            int a=8, b=8;
+            for (int i = 0; i < a; i++)
+            {
+                for (int j = 0; j < b; j++)
+                {
+                    Console.WriteLine($"I wynosi={i+1}, J wynosi: {j+1}");
+                }
+            }
+        }
 
+        public static void zagniezdzaniePetliWhile()
+        {
+            int a = 8, b = 8;
+            while (a>7)
+            {
+                while (b > 3) 
+                {
+                    PrezentacjaDanych.PrezentacjaStringow.sciecha();
+                    b -= 1;
+                }
+                a -= 1;
+                b = 8;
+            }
+
+        }
+        public static void petlaZwarunkiem()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                
+                if (i>4)
+                {
+                    break;
+                }
+                if (i==3)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+            }
+        }
     }
 
 }
