@@ -28,10 +28,14 @@ namespace Aplikacja_weekondowa
             //int abc=funkcje.ileRazyLitery("Poszedł gość po wodę", 'o');
             //int abc = funkcje.Silnia(5);
             //funkcje.operator_porownania();
-           // tablice.mojaTablica();
+            // tablice.mojaTablica();
             //tablice.wielowymiarowa();
-            struktury.Samochody();
+            //struktury.Samochody();
+            //generyki.prostaListaGeneryczna();
+            generyki.addDolistaRzeczyDoZrobienia("Posprzątaj mieszkanie");
+            generyki.addDolistaRzeczyDoZrobienia("Posprzątaj pokój");
 
+            generyki.listaRzeczyDoZrobienia();
             //Console.WriteLine(abc);
             Console.ReadKey();
         }

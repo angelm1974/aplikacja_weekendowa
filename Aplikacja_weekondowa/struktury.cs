@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace Aplikacja_weekondowa
 {
-        struct samochod
-        {
-            public string nazwa;
-            public string marka;
-            public int iloscKol;
-            public typy_wyliczeniowe.MojeKolory kolor;
-            public typy_wyliczeniowe.LataProdukcji rokProdukcji;
-        }
-        struct osoba
+    struct samochod
+    {
+        public string nazwa;
+        public typy_wyliczeniowe.marka marka;
+        public int iloscKol;
+        public typy_wyliczeniowe.MojeKolory kolor;
+        public typy_wyliczeniowe.LataProdukcji rokProdukcji;
+    }
+    struct osoba
     {
         public string imie;
         public string nazwisko;
@@ -30,13 +30,13 @@ namespace Aplikacja_weekondowa
 
             Opel.iloscKol = 4;
             Opel.kolor = typy_wyliczeniowe.MojeKolory.Niebieski;
-            Opel.marka = "Opel";
+            Opel.marka = typy_wyliczeniowe.marka.Opel;
             Opel.nazwa = "Adam";
             Opel.rokProdukcji = typy_wyliczeniowe.LataProdukcji.r_2;
 
             BMW.iloscKol = 6;
             BMW.kolor = typy_wyliczeniowe.MojeKolory.Czerwony;
-            BMW.marka = "BMW";
+            BMW.marka = typy_wyliczeniowe.marka.BMW;
             BMW.nazwa = "506";
             BMW.rokProdukcji = typy_wyliczeniowe.LataProdukcji.r_3;
 
@@ -49,10 +49,10 @@ namespace Aplikacja_weekondowa
 
             foreach (var item in mojeSamochody)
             {
-               // Console.ForegroundColor = (ConsoleCo)item.kolor;
+                // Console.ForegroundColor = (ConsoleCo)item.kolor;
                 Console.WriteLine("Moje auto to : {0}, {1}, z rocznika {2}", item.marka, item.nazwa, item.rokProdukcji);
             }
         }
-        //Opel, BMW, Fiat, Ponitiac
+        //Opel, BMW, Fiat, Pontiac
     }
 }

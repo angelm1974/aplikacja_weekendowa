@@ -32,6 +32,13 @@ namespace Aplikacja_weekondowa
           r_2 = 2021,
           r_3 = 2022
         }
+        public enum marka
+        {
+            Opel,
+            BMW,
+            Fiat,
+            Pontiac
+        }
 
     }
 }
