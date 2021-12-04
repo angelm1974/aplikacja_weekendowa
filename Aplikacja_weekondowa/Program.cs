@@ -32,17 +32,22 @@ namespace Aplikacja_weekondowa
             //tablice.wielowymiarowa();
             //struktury.Samochody();
             //generyki.prostaListaGeneryczna();
-            generyki.menu();
-           // generyki.addDolistaRzeczyDoZrobienia(Console.ReadLine());
-           // generyki.wyswietlListeRzeczyDoZrobienia();
-           // generyki.editListaRzeczyDoZrobienia(0, "Jarek");
-           ////generyki.addDolistaRzeczyDoZrobienia("Posprzątaj pokój");
 
-           // generyki.wyswietlListeRzeczyDoZrobienia();
+            // generyki.addDolistaRzeczyDoZrobienia(Console.ReadLine());
+            // generyki.wyswietlListeRzeczyDoZrobienia();
+            // generyki.editListaRzeczyDoZrobienia(0, "Jarek");
+            ////generyki.addDolistaRzeczyDoZrobienia("Posprzątaj pokój");
 
-           // generyki.deleteListaRzeczyDoZrobienia(0);
-           // generyki.wyswietlListeRzeczyDoZrobienia();
+            // generyki.wyswietlListeRzeczyDoZrobienia();
+
+            // generyki.deleteListaRzeczyDoZrobienia(0);
+            // generyki.wyswietlListeRzeczyDoZrobienia();
             //Console.WriteLine(abc);
+            //generyki.menu();
+
+            generyki2.addToDct("Kup samochód");
+            generyki2.addToDct("Kup wille");
+            generyki2.wyswietlListeRzeczyDoZrobienia();
             Console.ReadKey();
         }
 

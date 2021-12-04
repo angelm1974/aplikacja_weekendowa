@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="funkcje.cs" />
     <Compile Include="generyki.cs" />
+    <Compile Include="generyki2.cs" />
     <Compile Include="konwersje.cs" />
     <Compile Include="moje_funkcje.cs" />
     <Compile Include="newfile.cs" />
