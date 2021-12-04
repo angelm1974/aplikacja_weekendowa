@@ -32,10 +32,16 @@ namespace Aplikacja_weekondowa
             //tablice.wielowymiarowa();
             //struktury.Samochody();
             //generyki.prostaListaGeneryczna();
-            generyki.addDolistaRzeczyDoZrobienia("Posprzątaj mieszkanie");
-            generyki.addDolistaRzeczyDoZrobienia("Posprzątaj pokój");
+            generyki.menu();
+           // generyki.addDolistaRzeczyDoZrobienia(Console.ReadLine());
+           // generyki.wyswietlListeRzeczyDoZrobienia();
+           // generyki.editListaRzeczyDoZrobienia(0, "Jarek");
+           ////generyki.addDolistaRzeczyDoZrobienia("Posprzątaj pokój");
 
-            generyki.listaRzeczyDoZrobienia();
+           // generyki.wyswietlListeRzeczyDoZrobienia();
+
+           // generyki.deleteListaRzeczyDoZrobienia(0);
+           // generyki.wyswietlListeRzeczyDoZrobienia();
             //Console.WriteLine(abc);
             Console.ReadKey();
         }
