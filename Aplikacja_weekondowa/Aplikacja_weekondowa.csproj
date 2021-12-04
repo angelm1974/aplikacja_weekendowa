@@ -53,6 +53,7 @@
     <Compile Include="sterowanie_przeplywem.cs" />
     <Compile Include="struktury.cs" />
     <Compile Include="tablice.cs" />
+    <Compile Include="wyliczeniowy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

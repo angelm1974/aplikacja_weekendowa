@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Aplikacja_weekondowa
 {
         struct samochod
@@ -11,8 +12,8 @@ namespace Aplikacja_weekondowa
             public string nazwa;
             public string marka;
             public int iloscKol;
-            public ConsoleColor kolor;
-            public int rokProdukcji;
+            public typy_wyliczeniowe.MojeKolory kolor;
+            public typy_wyliczeniowe.LataProdukcji rokProdukcji;
         }
         struct osoba
     {
@@ -28,16 +29,16 @@ namespace Aplikacja_weekondowa
             samochod BMW;
 
             Opel.iloscKol = 4;
-            Opel.kolor = ConsoleColor.Yellow;
+            Opel.kolor = typy_wyliczeniowe.MojeKolory.Niebieski;
             Opel.marka = "Opel";
             Opel.nazwa = "Adam";
-            Opel.rokProdukcji = 2021;
+            Opel.rokProdukcji = typy_wyliczeniowe.LataProdukcji.r_2;
 
             BMW.iloscKol = 6;
-            BMW.kolor = ConsoleColor.Black;
+            BMW.kolor = typy_wyliczeniowe.MojeKolory.Czerwony;
             BMW.marka = "BMW";
             BMW.nazwa = "506";
-            BMW.rokProdukcji = 2025;
+            BMW.rokProdukcji = typy_wyliczeniowe.LataProdukcji.r_3;
 
             samochod[] mojeSamochody = new samochod[] { Opel, BMW };
 
@@ -48,9 +49,10 @@ namespace Aplikacja_weekondowa
 
             foreach (var item in mojeSamochody)
             {
+               // Console.ForegroundColor = (ConsoleCo)item.kolor;
                 Console.WriteLine("Moje auto to : {0}, {1}, z rocznika {2}", item.marka, item.nazwa, item.rokProdukcji);
             }
         }
-        
+        //Opel, BMW, Fiat, Ponitiac
     }
 }
