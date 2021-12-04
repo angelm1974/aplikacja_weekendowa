@@ -34,7 +34,12 @@ namespace Aplikacja_weekondowa
             Console.WriteLine($"Liczba zadań: {mojSlownik.Count()}");
 
         }
-
+        public static elementTODO findFirst(int klucz)
+        {
+            //return mojSlownik[klucz]; 
+            return mojSlownik.FirstOrDefault(k => k.Key==klucz).Value;
+           //return mojSlownik.FirstOrDefault(k => k.Value.ktoZrobil=="Jan").Value;
+        }
 
 
         static int indekser()
